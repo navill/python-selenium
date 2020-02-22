@@ -17,7 +17,7 @@ class GoogleSearch(unittest.TestCase):
 
     def test_search_python(self):
         self.driver.get('https://google.com')
-        self.driver.find_element_by_name('q').send_keys('python' + Keys.RETURN)
+        self.driver.find_element_by_name('q1').send_keys('python' + Keys.RETURN)
 
     @classmethod
     def tearDownClass(cls):
